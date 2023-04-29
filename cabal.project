@@ -1,0 +1,18 @@
+-- quickjs-hs repo checked out next to testing-quickjs
+
+-- version that doesn't work
+-- source-repository-package
+--   type: git
+--   location:  git@github.com:lambdamechanic/quickjs-hs
+--   tag: 69fc2a6b96d7a491eb35708348d78fd8b46a159e
+-- packages: ./testing-quickjs.cabal
+
+-- version that also doesn't work
+-- source-repository-package
+--   type: git
+--   location:  /home/mark/lambdalabs/quickjs-hs
+--   tag: 69fc2a6b96d7a491eb35708348d78fd8b46a159e
+-- packages: ./testing-quickjs.cabal
+
+-- version that does work
+packages: ./testing-quickjs.cabal ../quickjs-hs
